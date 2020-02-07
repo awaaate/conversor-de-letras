@@ -1,6 +1,6 @@
 
     const clipboard = new ClipboardJS(".copy-button");
-
+console.log('hola')
     clipboard.on("success", function(e) {
         if (document.querySelector(".copied")) {
             document.querySelector(".copied").classList.remove("copied");
